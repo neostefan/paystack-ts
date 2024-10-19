@@ -1,0 +1,26 @@
+{
+  "name": "paystack-ts",
+  "version": "1.0.0",
+  "description": "An api in typescript for paystack endpoints",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc --build"
+  },
+  "keywords": [
+    "paystack",
+    "payment"
+  ],
+  "author": "neo",
+  "license": "ISC",
+  "devDependencies": {
+    "@jest/globals": "^29.3.1",
+    "jest": "^29.3.1",
+    "jest-fetch-mock": "^3.0.3",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "axios": "^1.2.2"
+  }
+}
